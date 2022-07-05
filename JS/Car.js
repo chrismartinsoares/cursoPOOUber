@@ -1,3 +1,5 @@
+/* Antiguo
+
 function Car(license, driver) {
     this.id;
     this.license = license;
@@ -10,9 +12,10 @@ Car.prototype.printDataCar = function(){
     console.log(this.driver.name);
     console.log(this.driver.document);
 }
+*/
 
-/* es2015:
 
+//es2015:
 class Car {
     constructor(license, driver) {
         this.id;
@@ -27,4 +30,3 @@ class Car {
     }
 }
 
-*/
